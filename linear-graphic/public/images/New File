@@ -1,0 +1,11 @@
+git clone 
+
+cd name 
+
+makepkg -si
+
+
+
+sudo pacman -S softwore name
+
+sy 
