@@ -1,14 +1,13 @@
 /* this styling for popup  */
 @import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700;900&display=swap');
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
+
 body{
     font-family: 'Lato', sans-serif;
-    background-color: #f3f3f3;
+    background-color: #f8f6f6;
+    
 }
 .bg-dark-extra{
-  background-color: #020225;
+  background-color: #660FE0;
 }
 .logo{
   width: 200px;
@@ -33,7 +32,7 @@ body{
   font-size: 20px;
  text-decoration: none;
  margin-top: 10px;
- border-radius: 10px;
+ border-radius: 5px;
 }
 .btn-c{
   display: flex;
@@ -59,14 +58,198 @@ body{
   letter-spacing: 1px;
   text-align: center;
 }
-.grid{
-  display: grid;
-  width: 100%;
-  grid-template-columns: auto auto auto;
-  column-gap: 2.5rem;
-  row-gap: 2.5rem;
+
+.fs-50{
+  font-size: 50px;
 }
-.col{
-  padding: 30px;
-  border-radius: 8px;
+
+footer{
+  height: 100px;
+  background-color: #660FE0;
+  display: flex;
+  
+  align-items: center;
+}
+.footer{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.footer p{
+color: white;
+margin: 0;
+}
+.footer span i{
+  color: white; 
+  font-size: 20px;
+  margin-right: 15px;
+  cursor: pointer;
+}
+.theme-button-one{
+  float: right;
+}
+.file-input{
+  display: flex;
+  justify-content: right;
+  width: 50%;
+  float: right;
+}
+.file-in{
+  width: 50%;
+ 
+}
+.height-hl{
+  height: 500px;
+}
+.border-l{
+  border: 8px solid rgb(233, 189, 215);
+}
+.con-l{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 80;
+}
+.row-c2{
+  display: flex;
+  justify-content: end;
+  padding-right: 40px;
+}
+.col-bg3{
+  background-image: url(https://github.com/mdtomiz420/Linear-Graphic/blob/main/images/bg-3.jpg?raw=true);
+  height: 350px;
+  background-size: cover;
+  background-position: center;
+}
+/* carusel slider css  */
+      /* carusel slider css  */
+/* carusel slider css  */
+.tester_new {
+	padding: 20px 0 100px;
+  background-color:black;
+}
+
+.tester_new hr {
+	width: 100px;
+}
+.carousel-item p {
+color: #070000;
+text-align: center;
+padding: 10px;
+}
+.tastimonial{
+  background-image: url(https://github.com/mdtomiz420/Linear-Graphic/blob/main/images/Mask-Group-2@2x-scaled.jpg?raw=true);
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: black;
+  background-position: center;
+  margin-top: 70px;
+}
+.img-1{
+  background-image: url(https://github.com/mdtomiz420/Linear-Graphic/blob/main/images/img1.jpg?raw=true);
+  background-size: cover;
+  background-position: center;
+}
+.img-2{
+  background-image: url(https://github.com/mdtomiz420/Linear-Graphic/blob/main/images/img2.jpg?raw=true);
+  background-size: cover;
+  background-position: center;
+}
+.img-3{
+  background-image: url(https://github.com/mdtomiz420/Linear-Graphic/blob/main/images/img3.jpg?raw=true);
+  background-size: cover;
+  background-position: center;
+}
+.rounded-img{
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+  background-color: rgb(0, 0, 0);
+}
+.carousel-item h5{
+  color: #000000;
+  text-align: center;
+}
+.tester_new .carousel-item hr {
+	width: 100px;
+}
+.tester_new .carousel-item h5 {
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.tester_new .carousel-indicators li {
+	height: 20px;
+	width: 20px;
+	border-radius: 50%;
+	background-image: url(https://s17.postimg.org/mqjuw14bz/profile1.png);
+	background-position: center;
+	background-size: cover;
+	border: 5px solid #f1f2f3;
+	opacity: 0.4;
+	box-shadow: 0px 0px 5px 1px #ccc;
+	margin: 0 10px;
+  cursor:pointer;
+}
+.tester_new .carousel-indicators li:nth-child(2) {
+	background-image: url(https://s17.postimg.org/5q0yndefz/profile2.png);
+}
+.tester_new .carousel-indicators li:nth-child(3) {
+	background-image: url(https://s17.postimg.org/7ulbog0n3/profile3.png);
+}
+.carousel-indicators {
+	bottom: -90px;
+}
+.tester_new .carousel-indicators .active {
+	opacity: 1;
+}
+/* slider styling End  */
+/* styling service section  */
+.service-title{
+  background-color: #ec297a;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.service-title h1{
+  color: white;
+  font-size: 50px;
+  
+}
+.service-con{
+  row-gap: 2rem;
+  column-gap: 2rem;
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.service-item{
+background-color: rgb(8, 2, 31);
+height: 500px;
+position: relative;
+overflow: hidden;
+}
+.service-item:hover > .service-overlay{
+  display: flex;
+}
+.service-overlay {
+  position: absolute; /* Sit on top of the page content */
+  display: none; /* Hidden by default */
+  width: 100%; /* Full width (cover the whole page) */
+  height: 100%; /* Full height (cover the whole page) */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(201, 19, 95, 0.76); /* Black background with opacity */
+  z-index: 2; /* Specify a stack order in case you're using a different order for other elements */
+  cursor: pointer; /* Add a pointer on hover */
+  justify-content: center;
+  align-items: center;
+  flex-direction: column
+}
+.serv-btn{
+  color: white;
+}
+.serv-btn:hover{
+  color: #ffffff;
 }
