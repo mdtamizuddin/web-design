@@ -15,23 +15,25 @@ export default function Navbar() {
                 <li className="nav-item">
                 <a className="nav-link active" aria-current="page" href="index.html">Home</a>
                 </li>
+
                 <li className="nav-item">
-                <a className="nav-link" href="#">Service</a>
+                <a className="nav-link active" href="#">About us</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">Portfolio</a>
+                <a className="nav-link active" href="#">Service</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">Pricing</a>
+                <a className="nav-link active" href="#">Portfolio</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">Unlimited Design</a>
+                <a className="nav-link active" href="#">Pricing</a>
+                </li>
+                
+                <li className="nav-item">
+                <a className="nav-link active" href="#">Reviews</a>
                 </li>
                 <li className="nav-item">
-                <a className="nav-link" href="#">Reviews</a>
-                </li>
-                <li className="nav-item">
-                <a className="nav-link" href="#">Contact</a>
+                <a className="nav-link active" href="#">Contact</a>
                 </li>
                 <li>
                     

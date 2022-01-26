@@ -209,7 +209,7 @@
 .testimonial-section .owl-theme .owl-dots .owl-dot.active span,.testimonial-section .owl-theme .owl-dots .owl-dot:hover span,#polyglotLanguageSwitcher ul.dropdown li:hover,
 .our-case .single-case-block .hover-content .text .details:hover,.our-blog .single-blog .image-box .overlay .date,.core-values .single-value-block .image-box .overlay a:hover,
 .theme-sidebar-one .sidebar-brochures ul,.theme-pagination ul li a:hover,.theme-pagination ul li.active a,.blog-sidebar .sidebar-tags ul li.active a,.blog-sidebar .sidebar-tags ul li a:hover  {
-  background: #001a57;
+  background: #e20a88;
 }
 .header-one .top-header .address-wrapper .quotes a,#theme-main-banner .camera_pag .camera_pag_ul li,.theme-pagination ul li a:hover,.theme-pagination ul li.active a,.blog-sidebar .sidebar-tags ul li.active a,
 .blog-sidebar .sidebar-tags ul li a:hover,.shop-page .single-product:hover .image-box {
@@ -226,7 +226,7 @@ body .theme-button-one {
   border-radius: 5px;
   padding: 0 35px;
 }
-body .theme-button-one:hover {background:#000f32; }
+body .theme-button-one:hover {background:#e20a88; }
 /*------------------- Theme Title ------------------*/
 .theme-title-one {position: relative;text-align: center;}
 .theme-title-one h2 {
@@ -1699,7 +1699,7 @@ body .theme-button-one:hover {background:#000f32; }
 /*---------------- Contact Us ----------------*/
 .google-map-two {height: 410px;}
 .contact-us-section .main-content {
-  margin-top: 50px;
+  margin-top: 30px;
   box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.08);
 }
 

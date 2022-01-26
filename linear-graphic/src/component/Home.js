@@ -7,8 +7,8 @@ function Home() {
                 <div className="hero-content">
                     <h2 className="animate__animated animate__delay-0.8s  animate__backInDown">We provide</h2>
                     <h1 className="animate__animated animate__delay-1s  animate__backInRight">
-                        High-quality, affordable<br />
-                        graphic design services for<br />
+                        High-quality, Affordable<br />
+                        Araphic Design Aervices For<br />
                         Marketing Agencies.
                     </h1>
                     <a className="btn-c animate__animated animate__backInUp animate__delay-1s" href="/"><button className="color-btn"> Get A Quote</button></a>
@@ -16,12 +16,55 @@ function Home() {
             </div>
         </div>
         {/* hero area End here  */}
-         {/* Project running and competed section start*/}
+
+        {/* service section  */}
+        <section>
+            <div className='container  mart-70'>
+                <h1 className='text-center fs-1 py-4'>Designed For Your Success.</h1>
+                <p className='text-center serv-p'>Linear Graphic is a branding and marketing graphic design studio based in Cebu, Philippines. We provide fast, high-quality, and reliable graphic design support to business owners and marketing professionals to get your projects done faster. Better. You get to focus on doing what you do best, increase your productivity, and take on more clients</p>
+                <div className='row service-top my-5'>
+                    <div className='col p-5'>
+                    <img src="https://pugodesigns.com/wp-content/uploads/2020/08/PUGO-website-ICONS-BRANDING.png" alt="" srcset=""/>
+                    <h2>Branding</h2>
+                    <p>Logo
+                        Corporate Identity
+                        Brand Guidelines
+                        Mascot Design</p>
+                    </div>
+                    <div className='col p-5'>
+                    <img src="https://pugodesigns.com/wp-content/uploads/2020/08/PUGO-website-ICONS-MARKETING.png" alt="" srcset=""/>
+                    <h2>Marketing</h2>
+                    <p>Logo
+                        Corporate Identity
+                        Brand Guidelines
+                        Mascot Design</p>
+                    </div>
+                    <div className='col p-5'>
+                    <img src="https://pugodesigns.com/wp-content/uploads/2020/08/PUGO-website-ICONS-WEB.png" alt="" srcset=""/>
+                    <h2>Web Design</h2>
+                    <p>Logo
+                        Corporate Identity
+                        Brand Guidelines
+                        Mascot Design</p>
+                    </div>
+                    <div className='col p-5'>
+                    <img src="https://pugodesigns.com/wp-content/uploads/2020/08/PUGO-website-ICONS-ANIMATION2.png" alt="" srcset=""/>
+                    <h2>Web Dev</h2>
+                    <p>Logo
+                        Corporate Identity
+                        Brand Guidelines
+                        Mascot Design</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        {/* Project running and competed section start*/}
+
         <section className='mart-60 bg-2'>
             <div className='container '>
 
-                <h1 className='fs-2  mt-5  text-center'>OUR DESIGN PROCESS</h1>
-                <p className='text-center'>Get your customized visual content design oozing with creativity and grandeur in easy 3 steps</p>
+                <h1 className='fs-1  mt-5  text-center'>Our Design Prosses</h1>
+                <p className='text-center fs-5'>Get your customized visual content design oozing with creativity and grandeur in easy 3 steps</p>
                 <div className='row   d-flex align-items-center height-hl'>
                     <div className='col ps-5'>
                         {/* accordian start  */}
@@ -76,7 +119,7 @@ function Home() {
         </section>
 
         <section>
-            <div className='container-fluid'>
+            <div className=''>
                 <div className='row'>
                     <div className='col col-bg3 '>
 
@@ -100,94 +143,95 @@ function Home() {
         {/* our service section start  here  */}
         <section>
             <div className='service-title'>
-                <h1>Letest Works</h1>
-                </div>
-                <div className='container mart-70 service-con'>
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                <h1 className='fs-1'>Letest Works</h1>
+            </div>
+            <div className='container mart-70 service-con'>
+                {/* item start */}
+                <div className='service-item'>
+                    <img className='w-60' src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
                         <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                    {/* item start */}
-                    <div className='service-item'>
-                    <img src="" alt="" />
+                </div>
+                {/* item end  */}
+                {/* item start */}
+                <div className='service-item'>
+                    <img src="https://github.com/mdtomiz420/Linear-Graphic/blob/main/Cover%206.png?raw=true" alt="" />
                     <div className='service-overlay animate__animated  animate__fadeInUp animate__delay-0.5s'>
-                    <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
+                        <a className='serv-btn' href='/'>View Project <i className='fas fa-arrow-right'></i></a>
 
                     </div>
-                    </div>
-                    {/* item end  */}
-                
+                </div>
+                {/* item end  */}
+
             </div>
         </section>
         {/* our service section end here  */}
-        <Slider/>
+        <Slider />
+
 
 
     </div>;
